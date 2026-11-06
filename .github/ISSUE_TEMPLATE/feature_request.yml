@@ -6,7 +6,9 @@ body:
     attributes:
       value: |
 
-        ## Before submitting a Feature request, please [search and confirm](https://github.com/kirodotdev/Kiro/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20type%3AFeature) that it does not yet exist. Duplicate requests will be closed.
+        ## Before submitting a feature request
+
+        Please [search open and closed issues](https://github.com/kirodotdev/Kiro/issues?q=is%3Aissue+sort%3Aupdated-desc) to see whether your idea has already been suggested. If you find a matching request, add a 👍 reaction and subscribe for updates. Add a comment if you have a new use case to share.
 
   - type: dropdown
     id: kiro-product
@@ -17,7 +19,11 @@ body:
         - IDE
         - CLI
         - IDE and CLI
+        - Web
+        - Mobile
+        - Crew
         - Autonomous Agent
+        - Other / multiple products
     validations:
       required: true
 
